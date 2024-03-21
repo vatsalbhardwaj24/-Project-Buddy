@@ -1,0 +1,46 @@
+.card-login {
+    background-color: rgb(2, 2, 51);
+    color: lightblue;
+    border-top: 10px solid rgb(115, 211, 243);
+    width: 40%;
+}
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; 
+}
+
+.login-header {
+    display: flex;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 995.20px) {
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+        margin: 0;
+    }
+
+    .card-login {
+        width: 80%; 
+    }
+    
+    .login-header {
+        font-size: 24px; 
+    }
+
+    .form-control {
+        font-size: 14px; 
+    }
+
+    .btn-primary {
+        font-size: 16px; 
+    }
+}

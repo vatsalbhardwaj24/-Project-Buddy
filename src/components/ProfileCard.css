@@ -1,0 +1,46 @@
+.username {
+    font-weight: 500;
+    font-size: large;
+    color: rgb(178, 177, 177);
+}
+.name {
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 400;
+    color: white;
+}
+.card-profile {
+    background-color: rgb(2, 2, 51);
+    padding: 10px;
+}
+.text-white {
+    color: rgb(178, 177, 177);
+}
+.email-text {
+    background-color: lightblue;
+    font-size: 18px;
+    color: navy;
+}
+
+@media screen and (max-width: 768px) {
+    .card-profile {
+        padding: 5px;
+    }
+
+    .username {
+        font-size: medium; 
+    }
+
+    .name {
+        font-size: medium;
+    }
+
+    .text-white {
+        font-size: small;
+    }
+
+    .email-text {
+        font-size: 14px; 
+        
+    }
+}

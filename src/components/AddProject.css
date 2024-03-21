@@ -1,0 +1,18 @@
+.header-addProject {
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(69, 205, 251);
+    text-align: center;
+}
+
+@media screen and (max-width: 995.20px) {
+    .container {
+        width: 90%; 
+        margin: 0 auto;
+    }
+
+    .row {
+        flex-direction: column; 
+    }
+}
